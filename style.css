@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --theme-color: #5074f3;
+}
+#get-user-btn{
+    background: var(--theme-color);
+}
+
+.color-fondo{
+    background: var(--theme-color);
+}
+
+.img-container img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card h3, .card h4 {
+    font-size: 1em;
+    letter-spacing: 0.02em;
+    margin-top: 0.5em;
+    font-weight: 30;
+    color: #90919e;
+}
